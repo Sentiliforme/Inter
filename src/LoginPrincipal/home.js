@@ -5,10 +5,8 @@ import "./Vistas/Home/App.css";
 import Body from './Vistas/Home/Body';
 import Menu from './Vistas/Home/Menu';
 import Footer from './Vistas/Home/footer';
-import Login from './Vistas/Home/Login'
-import Register from './Vistas/Home/Register'
-import Home from "./Vistas/Home/Home1";
-import Dashboard from "./Vistas/Home/Dashboard";
+import Login from './Vistas/Login/Login'
+import Register from './Vistas/Login/Register'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default class App extends Component {
